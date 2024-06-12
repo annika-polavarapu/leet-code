@@ -17,7 +17,7 @@ void sortColors(vector<int>& nums) {
             }
         }
         for (int i = 0; i < nums.size(); i++) {
-            if(nums[i] == 1) {
+            if(nums[i] == 2) {
                 twos++;
             }
         }
