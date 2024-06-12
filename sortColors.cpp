@@ -21,6 +21,16 @@ void sortColors(vector<int>& nums) {
                 twos++;
             }
         }
+
+        for(int i = 0; i < zeros; i++) {
+            nums.push_back(0);
+        }
+        for(int i = 0; i < ones; i++) {
+            nums.push_back(1);
+        }
+        for(int i = 0; i < twos; i++) {
+            nums.push_back(2);
+        }
 }
 
 /* Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
