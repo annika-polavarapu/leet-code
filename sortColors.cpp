@@ -22,6 +22,8 @@ void sortColors(vector<int>& nums) {
             }
         }
 
+        nums.clear();
+
         for(int i = 0; i < zeros; i++) {
             nums.push_back(0);
         }
